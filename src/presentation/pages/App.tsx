@@ -201,7 +201,7 @@ export function App() {
 
           {records.length === 0 && !isLoadingFiles && (
             <div className="text-center py-8 text-gray-500 border border-gray-300 bg-gray-50 flex-1 flex flex-col justify-center">
-              <p className="text-sm">画像ファイルを取り込んで開始</p>
+              <p className="text-sm">画像ファイルを取り込んでください</p>
             </div>
           )}
         </div>
